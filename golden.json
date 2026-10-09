@@ -1,0 +1,38 @@
+[
+  {
+    "id": "crash",
+    "question": "Which app had a crash-rate spike, in which country, and from what date?",
+    "must_include": [
+      "PixelPets",
+      "BR",
+      "07-14"
+    ]
+  },
+  {
+    "id": "finance",
+    "question": "Did US revenue for Finance apps change in August 2026 versus July? Roughly by how much?",
+    "must_include": [
+      "Finance",
+      "US"
+    ],
+    "expected_change_pct": [
+      -33,
+      -25
+    ]
+  },
+  {
+    "id": "growth",
+    "question": "Which app grew daily installs the most between June and August 2026?",
+    "must_include": [
+      "ZenTimer"
+    ]
+  },
+  {
+    "id": "outage",
+    "question": "DAU is zero on 2026-07-04. Is that a real drop in users?",
+    "must_include": [
+      "2026-07-04"
+    ],
+    "must_flag": "data/logging outage, not a real user drop"
+  }
+]
